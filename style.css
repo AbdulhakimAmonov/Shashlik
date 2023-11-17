@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* section1 */
+.section1{
+  background-image: url(./fullsize/photo_2023-11-09_22-37-57.jpg);
+  height: 730px;
+  color: white;
+  opacity:.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* section2 */
+.section2{
+  background-color: #dc3545;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  height: 300px;
+  text-align: center;
+}
+/* section3 */
+.section3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+}
+
+/* Section 4 */
+.section4{
+  height: 500px;
+  background-color: rgb(5, 5, 33);
+}
+.carousel-item {
+  margin-top: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  text-align: center;
+}
+
+/* Section 4 */
+
+
+
+/* Section 5 */
+
+.section5{
+  width: 100%;
+  height: 350px;
+  background-color: rgb(5, 5, 33);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.section5-h1{
+  font-size: 50px;
+  color: white;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .btn{
+    width: 200px;
+    height: 50px;
+  }
+
+/* Section 5 */
+
+/* Section 6 */
+
+.section6{
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section6-texts{
+  text-align: center;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 20px;
+
+}
+.bi{
+  font-size: 2.5rem;
+}
+.texts{
+  margin-top: 200px;
+}
+
+/* Section 6 */
+
+
+@media screen and ( max-width:998px ) {
+  .section5{
+    width: 100%;
+  }
+  .section5-h1{
+    font-size: 30px;
+  }
+  .section3{
+    height: 800px;
+  }
+  .images{
+    width: 50%;
+  }
+  .texts{
+    margin-top: 150px;
+  }
+}
+
+@media screen and ( max-width:576px ) {
+  .section5{
+    width: 100%;
+  }
+  .section5-h1{
+    font-size: 25px;
+  }
+  .section3{
+    height: 800px;
+  }
+  .images{
+    width: 50%;
+  }
+  .h3-icons2{
+    font-size: 20px;
+  }
+  .h3-icons1{
+    font-size: 20px;
+  }
+  .texts{
+    margin-top: 150px;
+  }
+}
+
+@media screen and ( max-width:376px ) {
+  .section5{
+    width: 100%;
+  }
+  .section5-h1{
+    font-size: 20px;
+  }
+  .section3{
+    height: 800px;
+  }
+  .images{
+    width: 50%;
+  }
+  .h3-icons2{
+    font-size: 15px;
+  }
+  .h3-icons1{
+    font-size: 15px;
+  }
+  .texts{
+    margin-top: 150px;
+  }
+  .carousel-item {
+    margin-top: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+  }
+}
+.navbar-toggler{
+  background-color: white;
+}
